@@ -1,0 +1,10 @@
+OFFICIAL DOCS LOG SPRING BOOT WITH SLEUTH : https://docs.spring.io/spring-cloud-sleuth/docs/3.0.3/reference/html/project-features.html#features-log-integration-json-logback
+logging example : https://springframework.guru/using-logback-spring-boot/
+
+
+1.Spring Boot use Logback for the default logger
+
+2.SLF4j Log library is an interface we have used sl4j Library allowing us to plug in the desired logging 
+framework at deployment time. (e.g. java.util.logging, logback, log4j)
+
+3.Spring Boot team provides us a default configuration for Logback in the Spring Boot default Logback configuration file,  base.xml
